@@ -5,6 +5,8 @@
 
 #include "CTurtle.hpp"
 namespace ct = cturtle;
+#include <iostream> //for input & output
+using namespace std; //this makes it possible to use cin and cout without std:
 
 void spiral(ct::Turtle& rt, int len) {
     if (len > 0) {
